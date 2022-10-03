@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Girloy/Gilroy-UltraLightItalic.ttf");
+}
+@font-face {
+  font-family: Nekst;
+  src: url("fonts/Nekst/Nekst-Black.ttf");
+}
+
+$grey:#F3F3F4;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App{
+  margin-top: 213px;
+  margin-left: 47px;
+  h1 {
+    font-family: Nekst, sans-serif;
+    width: 753px;
+    font-size: 54px;
+  }
+  .main_box{
+    margin-top:32px  ;
+    display: flex;
+    gap: 32px;
+
+    p{
+      font-size: 16px ;
+      font-family: Gilroy, serif;
+    }
+    &_price{
+      display: flex;
+      margin-top: 24px;
+      width: 427px;
+      height: 68px;
+      background-color: $grey;
+      border-radius: 16px ;
+      justify-content: space-between;
+      align-items: center;
+      padding-left:24px  ;
+      padding-right: 16px;
+      p,span{
+        font-family: Nekst, serif;
+        font-size: 30px ;
+      }
+      &_percent{
+        background-color: #EBEBEC;
+        border-radius: 16px ;
+        font-size: 20px ;
+        width: 69px ;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+
+        }
+      }
+
+    }
+  }
+  .main_box_sum{
+    margin-top: 44px;
+  }
+}

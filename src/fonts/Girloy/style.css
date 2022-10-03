@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Ultra Light Italic'), local('Gilroy-Ultra-Light-Italic'),
+        url('Gilroy-UltraLightItalic.woff2') format('woff2'),
+        url('Gilroy-UltraLightItalic.woff') format('woff'),
+        url('Gilroy-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
